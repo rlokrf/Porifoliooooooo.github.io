@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+            <h1>Meu Portifólio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#Projetos">Progetos</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="contato">Contato</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <section id="sobre">
+        <div class="container">
+            <div class="sobre-mim">
+                <img src="https://i.pinimg.com/originals/20/2c/66/202c662b2a8691f8b6249623b43bb6ed.gif" alt="Foto do autor" class="foto-perfil">
+                <div class="sobre-informacoes">
+                    <h2>Sobre mim</h2>
+                    <p> Turma Desenvolvimento de Sistemas - 2º - Julia Calhau</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetod">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            <div class="cards">
+                <div class="card">
+                <h3>Aula de LIMA</h3>
+                <p>Aulas sobre css e html</p>
+                </div>
+            <div class="card">
+                <h3>Kahoot!</h3>
+                <p>Gameficação em sala de aula!</p>
+            
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies">
+        <div class="container">
+            <h2>Meus Hobbies</h2>
+            <div class="hobbies">
+                <div class="hobby">
+                    <i class="fas fa-book"></i>
+                    <h3>Leitura</h3>
+                    <p>Ler livros sobre ficção cientifica</p>
+                </div>
+                <div class="hobby">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>Jogar</h3>
+                    <p>Jogar jogos eletronicos</p>
+                </div>
+                <div class="hobby">
+                    <i class="fas fa-book"></i>
+                    <h3>Fotografia</h3>
+                    <p>Tirar fotos de momentos!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem</label>
+                <textarea for="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Meu Portifólio</p>
+    </footer>
+</body>
+</html>
